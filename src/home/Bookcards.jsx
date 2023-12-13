@@ -3,13 +3,14 @@ import Bookcard from "./Bookcard";
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
+
 const Bookcards = () => {
 
     const [bookcards, setBookcards] = useState([])
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('https://assignment-11-server-iota-eight.vercel.app/bookcards')
+        fetch('http://localhost:5000/bookcards')
             .then(res => res.json())
             .then(data => {
                 setBookcards(data)

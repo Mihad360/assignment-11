@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -9,9 +12,14 @@ import 'swiper/css/navigation';
 
 
 const Banner = () => {
+
+    useEffect(()=>{
+        Aos.init({duration: 2000})
+    },[])
+
     return (
             <div>
-                <div className='container dark:bg-black'>
+                <div className='container dark:bg-black' data-aos = 'fade-up'>
                 <h1 className='text-3xl text-center font-bold text-blue-600 md:pb-8'>Welcome to Our Library</h1>
                 <Swiper effect={'coverflow'}
                     grabCursor={true}

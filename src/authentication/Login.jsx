@@ -53,7 +53,7 @@ const Login = () => {
 // cp index.html 200.html
 // surge
 
-                    // fetch('https://assignment-11-server-iota-eight.vercel.app/jwt', {
+                    // fetch('http://localhost:5000/jwt', {
                     //     method: 'POST',
                     //     credentials: "include",
                     //     headers: {
@@ -67,7 +67,7 @@ const Login = () => {
                     //   })
 
                     // axios
-                    //     .post("https://assignment-11-server-iota-eight.vercel.app/jwt",
+                    //     .post("http://localhost:5000/jwt",
                     //         { email },
                     //         { withCredentials: true })
                     //     .then(res => console.log(res.data))

@@ -34,7 +34,7 @@ const Addbook = () => {
         const bookinfo = { photo, name, quantity, author, category, description, rating, read_description }
 
         console.log(bookinfo)
-        fetch('https://assignment-11-server-iota-eight.vercel.app/allbooks', {
+        fetch('http://localhost:5000/allbooks', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
