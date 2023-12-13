@@ -10,7 +10,7 @@ const Bookcards = () => {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('http://localhost:5000/bookcards')
+        fetch('https://assignment-11-server-iota-eight.vercel.app/bookcards')
             .then(res => res.json())
             .then(data => {
                 setBookcards(data)

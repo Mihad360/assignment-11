@@ -14,7 +14,7 @@ const Categorybooks = () => {
     // console.log(loader)
 
     useEffect(() => {
-        fetch('http://localhost:5000/bookcards')
+        fetch('https://assignment-11-server-iota-eight.vercel.app/bookcards')
             .then(res => res.json())
             .then(data => {
                 // console.log(data)

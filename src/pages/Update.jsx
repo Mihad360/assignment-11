@@ -34,7 +34,7 @@ const Update = () => {
         const rating = form.rating.value;
         const updateinfo = {photo, name, author, category, rating }
 
-        fetch(`http://localhost:5000/allbooks/${_id}`, {
+        fetch(`https://assignment-11-server-iota-eight.vercel.app/allbooks/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

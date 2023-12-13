@@ -30,27 +30,27 @@ const router = createBrowserRouter([
         {
           path: '/categorybooks/:id',
           element: <Categorybooks></Categorybooks>,
-          loader: () => fetch('http://localhost:5000/allbooks')
+          loader: () => fetch('https://assignment-11-server-iota-eight.vercel.app/allbooks')
         },
         {
           path: '/details/:id',
           element: <Privateroute><Details></Details></Privateroute>,
-          loader: () => fetch('http://localhost:5000/allbooks')
+          loader: () => fetch('https://assignment-11-server-iota-eight.vercel.app/allbooks')
         },
         {
           path: '/read/:id',
           element: <Read></Read>,
-          loader: () => fetch('http://localhost:5000/allbooks')
+          loader: () => fetch('https://assignment-11-server-iota-eight.vercel.app/allbooks')
         },
         {
           path: '/allbook',
           element: <Privateroute><Allbooks></Allbooks></Privateroute>,
-          loader: () => fetch('http://localhost:5000/allbooks')
+          loader: () => fetch('https://assignment-11-server-iota-eight.vercel.app/allbooks')
         },
         {
           path: '/update/:id',
           element: <Privateroute><Update></Update></Privateroute>,
-          loader: ({params}) => fetch(`http://localhost:5000/allbooks/${params.id}`)
+          loader: ({params}) => fetch(`https://assignment-11-server-iota-eight.vercel.app/allbooks/${params.id}`)
         },
         {
           path: '/login',
@@ -63,7 +63,7 @@ const router = createBrowserRouter([
         {
           path: '/borrowedbooks',
           element: <Privateroute><Borrowedbooks></Borrowedbooks></Privateroute>,
-          loader: () => fetch('http://localhost:5000/addbooks')
+          loader: () => fetch('https://assignment-11-server-iota-eight.vercel.app/addbooks')
         }
       ]
     },

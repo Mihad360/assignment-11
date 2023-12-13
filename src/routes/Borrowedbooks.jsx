@@ -23,7 +23,7 @@ const Borrowedbooks = () => {
             confirmButtonText: 'Yes, Return it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/addbooks/${_id}`, {
+                fetch(`https://assignment-11-server-iota-eight.vercel.app/addbooks/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
