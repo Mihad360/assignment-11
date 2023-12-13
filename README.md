@@ -1,0 +1,7 @@
+⚫ Live link: https://illustrious-beetle.surge.sh/
+
+About assignment ---
+⚫ With a responsive navbar,footer,and load data from mongodb with also adding a swiper in the banner and also two sections i have created. there is also a button in the categories where clicking by user can go the categories details page.
+⚫ After that i have created add book route for adding data for my details and books pages.by adding data the mongodb will get my data's.then i made the dark-theme and some responsiveness in the home page.
+⚫ Then i created the details page with 4 cards and information by filter.after that i designed the login and registered page.in category details page there is a button details where user clicking by go to the book detail page.in the detail page there is a button borrow and read.user can read books by clicking the read button from the new page.
+⚫ After that i have created the firebase authentication with login and register.user profile and name will display at the navbar.then i does the allbook route part with the filter button functionality also.then i have some changes in my codes and web make the website full responsive, dark theme home page with a lot of git commits depends on requirments.after all i make the private route part also then i do the vercel part and surge part...

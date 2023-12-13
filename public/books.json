@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Book category 1",
+      "id": 1001,
+      "category": "stories",
+      "image": "https://i.ibb.co/ZWy2VPC/book-2428990-640.jpg"
+    },
+    {
+      "name": "Book category 2",
+      "id": 1002,
+      "category": "science",
+      "image": "https://i.ibb.co/v1RbYLF/depositphotos-3717368-Back-to-School.webp"
+    },
+    {
+      "name": "Book category 3",
+      "id": 1003,
+      "category": "poetry",
+      "image": "https://i.ibb.co/Y3f7qrM/summer-tea-with-a-book-on-the-terrace-1024x683.jpg"
+    },
+    {
+      "name": "Book category 4",
+      "id": 1004,
+      "category": "history",
+      "image": "https://i.ibb.co/HnsCfkd/istockphoto-1012501180-612x612.jpg"
+    }
+  ]
